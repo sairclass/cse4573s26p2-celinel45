@@ -12,7 +12,7 @@ import utils
 def parse_args():
     parser = argparse.ArgumentParser(description="cse 473/573 project 2.")
     parser.add_argument(
-        "--input_path", type=str, default="images",
+        "--input_path", type=str, default="images/t2",
         help="path to task-1 images folder")
     parser.add_argument(
         "--output_path", type=str, default="outputs/task2.png",
